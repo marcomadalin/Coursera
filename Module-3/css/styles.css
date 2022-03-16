@@ -1,0 +1,105 @@
+#header-nav {
+    background-color: #646464;
+    border-color: black;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+#companyName {
+    margin-left: 20px;
+    font-size: 300%;
+    color: black;
+}
+
+#menu {
+    margin: 25px 20px 0 0;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+}
+
+#collapsable-nav {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-header {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#header-container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.container>.navbar-header {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#nav-list {
+    margin: 0px 0px 0px 0px;
+}
+
+#navbar-header {
+    vertical-align: middle;
+
+}
+
+#nav-list li {
+    color: #000000;
+    background: #7a7979;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#nav-list li:hover {
+    background: #000000;
+    color: #7a7979;
+}
+
+ul.mobileOnly
+{
+  display: none;
+}
+@media screen and (max-width: 767px)
+{
+  ul.mobileOnly
+  {
+    display: block;
+    
+  }
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row {
+    background-color: #7a7979;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.row>div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
